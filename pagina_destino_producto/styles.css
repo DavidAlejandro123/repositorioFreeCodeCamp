@@ -1,0 +1,93 @@
+*{
+    font-family:sans-serif;
+    box-sizing:border-box;
+  }
+  html{
+    background-color:#ffffff;
+  }
+  main{
+    margin-top:100px;
+  }
+  
+  #header{
+    margin:0;
+    display:flex;
+    top:0;
+    position:fixed;
+    width:100%;
+    background-color:rgb(255,200,0);
+  }
+  #nav-bar ul{
+    /*margin-left:350px;*/
+    margin-right:0px;
+    display:flex;
+    list-style-type:none;
+  }
+  
+  a{
+    text-decoration:none;
+  }
+  .nav-link{
+    margin-left:20px;
+    margin-right:40px;
+  }
+  #caracteristicas,#comoUtilizar{
+    text-align:center;
+  }
+  
+  .flor-roja,.flor-amarilla, .flor-blanca{
+    display:flex; 
+    width:70%;
+    margin: 25px auto;
+    align-items:center;
+  }
+  /*.flor-amarilla{
+    display:flex; 
+    width:70%;
+  }
+  .flor-blanca{
+    display:flex; 
+    width:70%;
+  }*/
+  img{
+    border-radius:30px;
+  }
+  #video{
+    margin:110px auto;
+    display:flex;
+    justify-content:center;
+  }
+  #submit{
+    display:block;
+    margin: 10px auto;
+    width:80px;
+    height:50px;
+    border-radius:20%;
+    border-color:rgb(255,150,0);
+    background-color:rgb(255,150,0);
+  }
+  .div-precio{
+    display:flex;
+    margin:25px auto;
+    justify-content:space-between;
+    width:60%;
+  }
+  .div-precio div{
+    border:2px solid rgb(0,0,0);
+    padding:2px 50px 50px 50px;
+  }
+  .div-precio p{
+    text-align:center;
+    font-weight:900;
+    color:red;
+  }
+  .div-precio ul{
+    text-align:center;
+    list-style-type:none;
+  }
+  
+  @media (max-width:1500px){
+    #nav-bar ul{
+      margin-left:450px;
+    }
+  }

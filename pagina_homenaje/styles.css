@@ -1,0 +1,52 @@
+*{
+    font-family:Tahoma;
+  }
+  #main{
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color:rgb(200,210,255);
+    border-radius:10px;
+    padding-bottom:25px;
+  }
+  #title{
+    font-size:50px;
+  }
+  /*#main > h1{
+    font-size:50px;
+  }*/
+  
+  /*#main > h1, #main > p{
+    text-align:center;
+  }*/
+  #title, #main > p{
+    text-align:center;
+  }
+  #img-div{
+    margin:40px 50px;
+    background-color:white;
+    padding:40px;
+  }
+  #image, #img-caption{
+    display:block;
+    
+    max-width:100%;
+    justify-content:center;
+    margin:10px auto;
+    text-align:center;
+  }
+  #tribute-info > h3,#tribute-info p{
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  #tribute-info{
+    margin-left:300px;
+    margin-right:300px;
+  }
+  li{
+    margin-bottom:20px;
+  }
+  footer h3{
+    text-align:center;
+    margin-bottom:50px;
+  }
+  

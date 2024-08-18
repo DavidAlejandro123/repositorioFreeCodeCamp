@@ -1,0 +1,19 @@
+body{
+    display:flex;
+  }
+  #navbar{
+    margin-right:50px;
+    width:300px;
+  }
+  .enlaces{
+    white-space:normal;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
+  @media (max-width: 768px) {
+    #Introduccion {
+      /*width: 358px;*/
+      font-family:Tahoma;
+    }
+  }
